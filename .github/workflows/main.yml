@@ -36,7 +36,7 @@ jobs:
       - name: Run sign
         env:
           SCKEY: ${{ secrets.SCKEY }}
-          EMAIL: ${{ secrets.EMAIL }}
-          PASSWD: ${{ secrets.PASSWD }}
+          EMAIL: ${{ secrets.EMAILA }}
+          PASSWD: ${{ secrets.PASSWDA }}
         run: |
           python3 ./main.py
